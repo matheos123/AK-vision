@@ -7,3 +7,24 @@
 *{
   font-family: "Roboto", sans-serif;
 }
+
+/* General styles for the scrollbar */
+::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f5f7fa; /* Light grey track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #111827; /* Darker shade for thumb */
+  border-radius: 20px; /* Rounded corners */
+  outline: none; /* Remove the outline */
+}
+
+/* Firefox scrollbar styling */
+* {
+  scrollbar-width: thin; /* Thin scrollbar */
+  scrollbar-color: #111827 #f5f7fa; /* Thumb and track color */
+}
